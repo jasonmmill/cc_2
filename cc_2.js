@@ -28,3 +28,13 @@ let employee = {
 employee.department = "Sales"
 employee.position = "Specialist"
 console.log(employee)
+
+// Task 4: Array of Objects
+let customers = [ 
+    { name: "Hunter Junazski", email: "junazski1404@gmail.com", purchaseAmount: 200}, 
+    { name: "Aidan O'Keefe", email: "okeefe@yahoo.com", purchaseAmount: 250},
+    { name: "Matthew Delatorre", email: "mattdela05@usf.edu", purchaseAmount: 300}
+]
+customers.push({name: "Zach Pepper", email: "zpeps2024@gmail.com", purchaseAmount: 400})
+
+console.log(customers)
