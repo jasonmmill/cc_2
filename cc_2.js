@@ -8,3 +8,12 @@ console.log(products)
 let removed = products.pop()
 console.log(removed)
 console.log(products)
+
+// Task 2: Accessing and Modifying Arrays
+const scores = [ 93, 61, 45, 87, 76 ]
+console.log(scores)
+scores.splice(2,1,54)
+console.log(scores)
+let total = scores.reduce((sum, price) => sum + price)
+average = total / scores.length
+console.log(average)
