@@ -36,5 +36,14 @@ let customers = [
     { name: "Matthew Delatorre", email: "mattdela05@usf.edu", purchaseAmount: 300}
 ]
 customers.push({name: "Zach Pepper", email: "zpeps2024@gmail.com", purchaseAmount: 400})
-
 console.log(customers)
+
+// Task 5: Object Methods
+let order = {
+    orderId: 123,
+    customerName: "Eric Torres",
+    amount: 50
+}
+console.log(order)
+let calculateTax = order.amount + (order.amount * 0.1)
+console.log(calculateTax)
