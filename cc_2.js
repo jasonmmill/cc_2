@@ -17,3 +17,14 @@ console.log(scores)
 let total = scores.reduce((sum, price) => sum + price)
 average = total / scores.length
 console.log(average)
+
+// Task 3: Working with Objects
+let employee = {
+    name: "Jake Hebrank",
+    age: 22,
+    department: "Marketing",
+    isActive: true
+}
+employee.department = "Sales"
+employee.position = "Specialist"
+console.log(employee)
