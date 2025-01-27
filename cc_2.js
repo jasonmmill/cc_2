@@ -42,8 +42,11 @@ console.log(customers)
 let order = {
     orderId: 123,
     customerName: "Eric Torres",
-    amount: 50
+    amount: 50,
+    calculateTax: function() {
+        const tax = 0.10;
+        return this.amount * tax;
+    }
 }
 console.log(order)
-let calculateTax = order.amount + (order.amount * 0.1)
-console.log(calculateTax)
+console.log(order.calculateTax())
